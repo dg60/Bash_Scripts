@@ -1,5 +1,5 @@
 #!/bin/bash
-# Experimenting with variable scope
+# local variables
 
 var_change () {
     local var1='local 1'
