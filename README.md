@@ -10,14 +10,13 @@
 * Until loop (until_loop.sh)
 * For loop (for_loop.sh, for_loop_series.sh, for_loop_stepping.sh)
 * Functions (function_example.sh, function_arguments.sh, function_return_value.sh)
-* 
+* Usage of local variables (local_variables.sh)
+* Arithmetic (let.sh, expr.sh, expansion.sh )
 
 
 ## 10_Nmap
 
 * Nmap Basic Scan plus banner (Nmap_Basic_Scan.sh)
-* 
-* 
 
 ## 99_Various
 
