@@ -1,5 +1,17 @@
 # Bash_Scripts
 
+
+Make script executable for the user:
+```bash
+$ chmod 755 script.sh
+```
+
+Make script executable for the user, group and other´s:
+```bash
+$ chmod 755 script.sh
+```
+
+
 ## 00_Basic
 
 * Declare Variables (var.sh)
