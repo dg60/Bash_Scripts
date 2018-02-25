@@ -14,6 +14,18 @@
 * Arithmetic (let.sh, expr.sh, expansion.sh )
 
 
+## 01_Examples
+
+### Sourcing a config file
+
+* File with the configuration (config.sh)
+* Implemantation of the config file (sourcing.sh)
+
+### Adding a user
+
+* Creating a user with a homedirectory and set a password (useradd.sh)
+
+
 ## 10_Nmap
 
 * Nmap Basic Scan plus banner (Nmap_Basic_Scan.sh)
