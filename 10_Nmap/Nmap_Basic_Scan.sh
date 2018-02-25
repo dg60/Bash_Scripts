@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+DATE_WITH_TIME=`date "+%Y%m%d-%H%M%S"`
+NAME_LOGFILE="nmap"
+UNDERLINE="_"
+LOGFILE_TYP="log"
+LOGFILE_NAME="$NAME_LOGFILE$UNDERLINE$DATE_WITH_TIME.$LOGFILE_TYP"
 
 if [ "$#" == "0" ]
     then
@@ -10,6 +15,6 @@ if [ "$#" == "0" ]
 fi
 
 
-nmap -sT -Pn ${1} | tee nmap.log ;
-nmap -script banner ${1} | tee -a nmap.log
+nmap -sT -Pn ${1} | tee ${LOGFILE_NAME} ;
+nmap -script banner ${1} | tee -a ${LOGFILE_NAME}
 
