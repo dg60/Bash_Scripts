@@ -18,7 +18,7 @@ echo -e "Please enter the path of the home directory /home/username:"
 read homedir
 
 clear;
-echo -e "Please enter a description for the user"
+echo -e "Please enter a description for the user:"
 read description
 
 # add the user
