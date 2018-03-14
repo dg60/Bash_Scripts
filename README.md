@@ -3,7 +3,7 @@
 
 Make script executable for the user:
 ```bash
-$ chmod 755 script.sh
+$ chmod 700 script.sh
 ```
 
 Make script executable for the user, group and other´s:
